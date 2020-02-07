@@ -9,4 +9,4 @@
 
 **Result**
 
-- [UPDATE DEMO LINK](https://<your_account>.github.io/<repo_name>/)
+- [UPDATE DEMO LINK](https://lutsenkoanv.github.io/Range_slider/)
