@@ -12,7 +12,7 @@ let leftX;
 let rightX;
 
 input.value = `$${leftNew + handleLeft.offsetWidth / 2}
-  -  $${rightNew + handleLeft.offsetWidth / 2}`;
+ - $${rightNew + handleLeft.offsetWidth / 2}`;
 
 handleLeft.addEventListener('mousedown', (e) => {
   leftX = e.clientX - handleLeft.getBoundingClientRect().left
@@ -38,7 +38,7 @@ handleLeft.addEventListener('mousedown', (e) => {
     range.style.width = rightNew - leftNew + handleLeft.offsetWidth / 2 + 'px';
 
     input.value = `$${leftNew + handleLeft.offsetWidth / 2}
-  -  $${rightNew + handleLeft.offsetWidth / 2}`;
+ - $${rightNew + handleLeft.offsetWidth / 2}`;
   }
 
   document.addEventListener('mousemove', onMouseMove);
@@ -75,7 +75,7 @@ handleRight.addEventListener('mousedown', (e) => {
     range.style.width = rightNew - leftNew + handleLeft.offsetWidth / 2 + 'px';
 
     input.value = `$${leftNew + handleLeft.offsetWidth / 2}
-  -  $${rightNew + handleLeft.offsetWidth / 2}`;
+ - $${rightNew + handleLeft.offsetWidth / 2}`;
   }
 
   document.addEventListener('mousemove', onMouseMove);
